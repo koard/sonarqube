@@ -40,3 +40,9 @@ app.get("/about", (req, res) => {
 function add(a, b) {
   return a + b;
 }
+
+var unusedVar = 42;
+
+function notUsed() {
+  console.log("I’m never used");
+}
