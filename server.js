@@ -1,15 +1,11 @@
-// unused variable
-let testVar = 123;
-
-// unused function
-function notUsedFunc() {
-  console.log("I am not used!");
+// ❌ ใช้ arguments.caller - ผิดตาม Rule: "arguments.caller" should not be used
+function badCallerExample() {
+  console.log(arguments.caller); 
 }
 
-// unused parameter
-function doSomething(unusedParam) {
-  console.log("Running something");
-}
+// ❌ ใช้ Array.reduce() ไม่มี initial value - ผิดตาม Rule
+const nums = [1, 2, 3];
+const sum = nums.reduce((a, b) => a + b); 
 
 
 const express = require("express");
