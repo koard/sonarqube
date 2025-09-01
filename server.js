@@ -46,3 +46,7 @@ var unusedVar = 42;
 function notUsed() {
   console.log("I’m never used");
 }
+
+if ("5" == 5) { //Add Code Smell: Use of == instead of ===
+  console.log("Loose equality");
+}
