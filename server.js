@@ -1,10 +1,16 @@
-// ⚠️ Unused variable
-let unusedVariable = 123;
+// unused variable
+let testVar = 123;
 
-// ⚠️ Unused function
-function notUsedFunction() {
-  console.log("I'm not used anywhere!");
+// unused function
+function notUsedFunc() {
+  console.log("I am not used!");
 }
+
+// unused parameter
+function doSomething(unusedParam) {
+  console.log("Running something");
+}
+
 
 const express = require("express");
 const mysql = require("mysql");
