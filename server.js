@@ -1,3 +1,11 @@
+// ⚠️ Unused variable
+let unusedVariable = 123;
+
+// ⚠️ Unused function
+function notUsedFunction() {
+  console.log("I'm not used anywhere!");
+}
+
 const express = require("express");
 const mysql = require("mysql");
 
@@ -39,12 +47,4 @@ app.get("/about", (req, res) => {
 // Simple utility function
 function add(a, b) {
   return a + b;
-}
-
-// ⚠️ Code Smell 1: unused variable
-let someUnused = "Not used";
-
-// ⚠️ Code Smell 2: unused function
-function doNothing() {
-  console.log("I’m never used");
 }
