@@ -42,8 +42,9 @@ function add(a, b) {
 }
 
 var unusedVar = 42;
-let unusedVariable = 123; // 
 
 function notUsed() {
   console.log("I’m never used");
 }
+
+console.log("Debugging...");
