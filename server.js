@@ -41,10 +41,10 @@ function add(a, b) {
   return a + b;
 }
 
-var unusedVar = 42;
+// ⚠️ Code Smell 1: unused variable
+let someUnused = "Not used";
 
-function notUsed() {
+// ⚠️ Code Smell 2: unused function
+function doNothing() {
   console.log("I’m never used");
 }
-
-console.log("Debugging...");
