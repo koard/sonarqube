@@ -36,3 +36,7 @@ app.get("/about", (req, res) => {
   res.send("About page");
 });
 
+// Simple utility function
+function add(a, b) {
+  return a + b;
+}
